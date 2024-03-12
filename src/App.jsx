@@ -1,8 +1,15 @@
+import CardSlider from "./components/CardSlider"
 import Slider from "./components/Slider"
+import TwistingCard from "./components/TwistingCard"
 
 function App() {
   return (
-    <Slider />
+    <>
+      <Slider />
+      <CardSlider />
+      <TwistingCard />
+    </>
+    
   )
 }
 
